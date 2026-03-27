@@ -1,0 +1,7 @@
+dotenv
+langchain
+langchain-openai
+langchain[huggingface]
+langchain[google-genai]
+langchain[openai]
+langchain[anthropic]
