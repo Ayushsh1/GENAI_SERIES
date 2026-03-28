@@ -5,3 +5,4 @@ langchain[huggingface]
 langchain[google-genai]
 langchain[openai]
 langchain[anthropic]
+streamlit
