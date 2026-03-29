@@ -21,7 +21,6 @@ for message in st.session_state.messages:
     content = message['content']
     st.chat_message(role).markdown(content) 
 
-
 query = st.chat_input("Ask me anything..")
 if query:
     st.session_state.messages.append({"role": "user", "content": query})
@@ -29,5 +28,6 @@ if query:
     res = llm.invoke(query)
     st.chat_message('ai').markdown(res.content)
     st.session_state.messages.append({"role": "ai", "content": res.content})
+
 
 # role tells use who's message it is user or ai
