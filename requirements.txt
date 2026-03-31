@@ -8,3 +8,4 @@ langchain[anthropic]
 streamlit
 pydantic
 langchain-ollama
+langchain-groq
