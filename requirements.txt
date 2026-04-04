@@ -9,3 +9,4 @@ streamlit
 pydantic
 langchain-ollama
 langchain-groq
+langchain-community
